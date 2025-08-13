@@ -1,9 +1,7 @@
 import { TrendingDown, Users, DollarSign, AlertTriangle } from 'lucide-react';
 import traditionalVsAi from '@/assets/traditional-vs-ai.jpg';
-
 const ProblemSection = () => {
-  return (
-    <section id="problem" className="py-20 relative">
+  return <section id="problem" className="py-20 relative">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 fade-in-up">
           <h2 className="text-4xl lg:text-6xl font-bold mb-6">
@@ -83,12 +81,8 @@ const ProblemSection = () => {
 
         {/* Comparison image */}
         <div className="relative fade-in-up delay-200">
-          <img 
-            src={traditionalVsAi} 
-            alt="Traditional business chaos vs AI-powered calm efficiency"
-            className="w-full h-auto rounded-2xl"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent rounded-2xl"></div>
+          
+          
         </div>
 
         {/* Statistics */}
@@ -107,8 +101,6 @@ const ProblemSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ProblemSection;
