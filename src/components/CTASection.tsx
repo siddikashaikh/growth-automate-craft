@@ -101,7 +101,7 @@ const CTASection = () => {
             </div>
             <Button 
               className="btn-primary w-full"
-              onClick={() => window.open('https://calendly.com/softwelve/30min', '_blank')}
+              onClick={() => window.location.href = '/analysis'}
             >
               Get Free Analysis
               <Download className="w-5 h-5 ml-2" />
