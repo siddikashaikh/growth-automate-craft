@@ -57,13 +57,6 @@ const CTASection = () => {
             >
               Schedule Free Strategy Call
             </Button>
-            <Button 
-              variant="outline"
-              size="lg"
-              className="border-blue-500 text-blue-500 hover:bg-blue-500/10 px-8 py-4 text-lg font-semibold w-full sm:w-auto"
-            >
-              Download Case Studies
-            </Button>
           </div>
 
           {/* Guarantee */}
