@@ -28,20 +28,13 @@ const HeroSection = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+          <div className="flex justify-center items-center mb-12">
             <Button 
               size="lg"
-              className="bg-gradient-to-r from-blue-500 to-green-500 hover:from-blue-600 hover:to-green-600 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
+              className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
               onClick={() => window.open('https://calendly.com/softwelve/30min', '_blank')}
             >
               Get Your Custom Scaling Plan
-            </Button>
-            <Button 
-              variant="outline"
-              size="lg"
-              className="border-blue-500 text-blue-500 hover:bg-blue-500/10 px-8 py-4 text-lg font-semibold w-full sm:w-auto"
-            >
-              Watch Demo
             </Button>
           </div>
 
